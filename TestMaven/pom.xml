@@ -16,11 +16,14 @@
 
 
 <plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>exec-maven-plugin</artifactId>
-				<version>3.1.0</version>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
 				<configuration>
-					<mainClass>test1.Program1</mainClass>
+					<archive>
+						<manifest>
+							<mainClass>test1.Program1</mainClass>
+						</manifest>
+					</archive>
 				</configuration>
 			</plugin>
 

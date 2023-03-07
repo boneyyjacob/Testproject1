@@ -20,7 +20,7 @@
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>3.1.0</version>
 				<configuration>
-					<mainClass>sampleprogram.Helloworld</mainClass>
+					<mainClass>test1.Program1</mainClass>
 				</configuration>
 			</plugin>
 
